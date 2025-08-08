@@ -1,4 +1,4 @@
-# Addiv's Pink (VS Code Theme)
+# Evelyn's Pink (VS Code Theme)
 
 A soft and aesthetic pink theme for Visual Studio Code, designed to be cute, readable, and calm.  
 Perfect for those who love pastel vibes, clean syntax highlighting, and a cozy coding experience.
@@ -7,7 +7,7 @@ Perfect for those who love pastel vibes, clean syntax highlighting, and a cozy c
 
 ## 📸 Preview
 
-![Theme Preview](https://github.com/Addiv420/Addivs-Pink-VSCode/blob/main/screenshots/editor.png?raw=true)
+![Theme Preview](https://github.com/Evelynox/Evelyns-Pink-VSCode/blob/main/screenshots/editor.png?raw=true)
 
 ---
 
@@ -22,15 +22,15 @@ Perfect for those who love pastel vibes, clean syntax highlighting, and a cozy c
 
 ## 🔧 Installation
 
-To install **Addiv's Pink** theme, follow these steps:
+To install **Evelyn's Pink** theme, follow these steps:
 
 1. Open **Visual Studio Code**
 2. Go to the **Extensions** view (`Ctrl+Shift+X`)
-3. Search for `Addiv's Pink`
+3. Search for `Evelyn's Pink`
 4. Click **Install**
-5. Press `Ctrl+K Ctrl+T` and select **Addiv's Pink** from the theme list
+5. Press `Ctrl+K Ctrl+T` and select **Evelyn's Pink** from the theme list
 
-Alternatively, you can install it directly from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Addiv.addivs-pink).
+Alternatively, you can install it directly from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Evelyn.evelyns-pink).
 
 ---
 
@@ -40,4 +40,4 @@ Alternatively, you can install it directly from the [VS Code Marketplace](https:
 
 ---
 
-Made with 💙 by Addiv
+Made with 🩷 by Evelyn

@@ -1,12 +1,12 @@
 {
-	"name": "addivs-pink",
-	"displayName": "Addiv's Pink",
+	"name": "evelyns-pink",
+	"displayName": "Evelyn's Pink",
 	"description": "A pink theme",
-	"version": "1.2.0",
-	"publisher": "Addiv",
+	"version": "1.2.1",
+	"publisher": "Evelynox",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Addiv420/Addivs-Pink-VSCode"
+		"url": "https://github.com/Evelynox/Evelyns-Pink-VSCode"
 		},
 
 	"engines": {
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Addiv's Pink",
+				"label": "Evelyn's Pink",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Addiv's Pink-color-theme.json"
+				"path": "./themes/Evelyn's Pink-color-theme.json"
 			}
 		]
 	},

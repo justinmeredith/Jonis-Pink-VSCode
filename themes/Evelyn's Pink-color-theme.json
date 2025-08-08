@@ -1,5 +1,5 @@
 {
-	"name": "Addiv's Pink",
+	"name": "Evelyn's Pink",
 	"colors": {
 		// Global
 		"focusBorder": "#F06292",
@@ -19,11 +19,11 @@
 		"editor.lineHighlightBackground": "#ff9cbf",
 		"editorLineNumber.foreground": "#D50061",
 		"editorBracketHighlight.foreground1": "#f55e90",
-		"editorBracketHighlight.foreground2": "#fa6c9b",
-		"editorBracketHighlight.foreground3": "#ff83ad",
-		"editorBracketHighlight.foreground4": "#F48FB1",
-		"editorBracketHighlight.foreground5": "#F48FB1",
-		"editorBracketHighlight.foreground6": "#F48FB1",
+		"editorBracketHighlight.foreground2": "#f74f87",
+		"editorBracketHighlight.foreground3": "#ff4080",
+		"editorBracketHighlight.foreground4": "#ff3e7e",
+		"editorBracketHighlight.foreground5": "#fa1b66",
+		"editorBracketHighlight.foreground6": "#ff0055",
 		"editorError.foreground": "#D32F2F",
 		"editorWarning.foreground": "#FF8F00",
 		"editorGutter.addedBackground": "#4CAF50",

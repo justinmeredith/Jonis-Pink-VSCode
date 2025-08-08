@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
 		<Metadata>
-			<Identity Language="en-US" Id="addivs-pink" Version="1.1.4" Publisher="Addiv" />
-			<DisplayName>Addiv&apos;s Pink</DisplayName>
+			<Identity Language="en-US" Id="evelyns-pink" Version="1.1.4" Publisher="Evelynox" />
+			<DisplayName>Evelyn&apos;s Pink</DisplayName>
 			<Description xml:space="preserve">A pink theme</Description>
 			<Tags>theme,color-theme,__web_extension</Tags>
 			<Categories>Themes</Categories>
@@ -18,11 +18,11 @@
 				
 				
 				
-				<Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/Addiv420/Addivs-Pink-VSCode.git" />
-				<Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/Addiv420/Addivs-Pink-VSCode.git" />
-				<Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/Addiv420/Addivs-Pink-VSCode.git" />
-				<Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/Addiv420/Addivs-Pink-VSCode/issues" />
-				<Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/Addiv420/Addivs-Pink-VSCode#readme" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/Evelynox/Evelyns-Pink-VSCode.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/Evelynox/Evelyns-Pink-VSCode.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/Evelynox/Evelyns-Pink-VSCode.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/Evelynox/Evelyns-Pink-VSCode/issues" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/Evelynox/Evelyns-Pink-VSCode#readme" />
 				
 				
 				<Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />

@@ -1,15 +1,18 @@
 # Change Log
 
-All notable changes to the "addivs-pink" extension will be documented in this file.
+All notable changes to the "evelyns-pink" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [v 1.2.1]
 
-## [v.1.1]
+-Changed Package names
+-Fixed Brackets having a bad contrast
 
--README.md maxxing/fixing/whatever
+## [v 1.1.0]
+
+- README.md fixing
 
 
 
-## [Unreleased]
+## [v 1.0.0]
 
 - Initial release
