@@ -17,7 +17,7 @@
 
 		// Menüleiste & Titelleiste
 		"titleBar.activeBackground": "#1C0E18",
-		"titleBar.activeForeground": "#FF4FA3",
+		"titleBar.activeForeground": "#FF8FC7",
 		"titleBar.inactiveBackground": "#120810",
 		"titleBar.inactiveForeground": "#B8749A",
 

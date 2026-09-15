@@ -17,9 +17,9 @@
 
 		// Menüleiste & Titelleiste
 		"titleBar.activeBackground": "#f48fb1",
-		"titleBar.activeForeground": "#D50061",
+		"titleBar.activeForeground": "#2E0318",
 		"titleBar.inactiveBackground": "#F06292",
-		"titleBar.inactiveForeground": "#880E4F",
+		"titleBar.inactiveForeground": "#2E0318",
 
 		// █████ Editor █████
 		"editor.background": "#FEC2C8",
