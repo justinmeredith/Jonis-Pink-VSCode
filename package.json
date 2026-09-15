@@ -1,12 +1,12 @@
 {
-	"name": "evelyns-pink",
-	"displayName": "Evelyn's Pink",
-	"description": "A pink theme",
-	"version": "1.2.1",
-	"publisher": "Evelynox",
+	"name": "jonis-pink",
+	"displayName": "Joni's Pink",
+	"description": "A pink theme, forked and customized for readability from Evelyn's Pink by Evelynox",
+	"version": "1.3.0",
+	"publisher": "justinmeredith",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Evelynox/Evelyns-Pink-VSCode"
+		"url": "https://github.com/justinmeredith/Jonis-Pink-VSCode"
 		},
 
 	"engines": {
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Evelyn's Pink",
+				"label": "Joni's Pink",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Evelyn's Pink-color-theme.json"
+				"path": "./themes/Joni's Pink-color-theme.json"
 			}
 		]
 	},
