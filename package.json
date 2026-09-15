@@ -2,7 +2,7 @@
 	"name": "jonis-pink",
 	"displayName": "Joni's Pink",
 	"description": "A pink theme, forked and customized for readability from Evelyn's Pink by Evelynox",
-	"version": "1.3.0",
+	"version": "1.4.0",
 	"publisher": "justinmeredith",
 	"repository": {
 		"type": "git",
@@ -22,6 +22,11 @@
 				"label": "Joni's Pink",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Joni's Pink-color-theme.json"
+			},
+			{
+				"label": "Joni's Pink Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Joni's Pink Dark-color-theme.json"
 			}
 		]
 	},
