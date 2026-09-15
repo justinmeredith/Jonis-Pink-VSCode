@@ -8,6 +8,8 @@
 		"disabledForeground": "#C2185B",
 		"descriptionForeground": "#AD1457",
 		"errorForeground": "#D32F2F",
+		"textCodeBlock.background": "#E0BBE4",
+		"textPreformat.foreground": "#7A1F4B",
 
 		// Menüleiste & Titelleiste
 		"titleBar.activeBackground": "#f48fb1",
