@@ -34,6 +34,23 @@ For the original, unmodified theme, install [Evelyn's Pink from the VS Code Mark
 
 ---
 
+## 🖥 Terminal Prompt
+
+`terminal/prompt.zsh` carries the matching zsh prompt/banner, kept pure ASCII on purpose — emoji and other ambiguous-width Unicode characters can make the shell's cursor-position math disagree with how a terminal actually renders them, causing the cursor to drift out of sync with the text as you type.
+
+To use it on a machine:
+
+1. Clone this repo somewhere stable (e.g. `~/Programming (Local)/jonis-pink-vscode`)
+2. Add this line to `~/.zshrc`:
+   ```sh
+   source "$HOME/Programming (Local)/jonis-pink-vscode/terminal/prompt.zsh"
+   ```
+3. Open a new terminal tab to pick it up
+
+Pulling the latest repo (`git pull`) updates the prompt everywhere it's sourced from, without touching anything else in `.zshrc`.
+
+---
+
 ## 📃 License
 
 [GNU General Public License v3.0](LICENSE.md)
