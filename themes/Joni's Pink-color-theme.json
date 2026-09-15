@@ -10,6 +10,10 @@
 		"errorForeground": "#D32F2F",
 		"textCodeBlock.background": "#E0BBE4",
 		"textPreformat.foreground": "#7A1F4B",
+		"list.warningForeground": "#B8860B",
+		"list.errorForeground": "#D32F2F",
+		"problemsWarningIcon.foreground": "#B8860B",
+		"problemsErrorIcon.foreground": "#D32F2F",
 
 		// Menüleiste & Titelleiste
 		"titleBar.activeBackground": "#f48fb1",
