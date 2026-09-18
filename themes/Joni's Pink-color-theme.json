@@ -15,6 +15,12 @@
 		"list.errorForeground": "#D32F2F",
 		"problemsWarningIcon.foreground": "#4A3600",
 		"problemsErrorIcon.foreground": "#D32F2F",
+		// Blue for info-level icons/messages, matching the existing terminal blue — previously
+		// unset so these fell back to a generic default instead of the theme's palette
+		"editorInfo.foreground": "#2196F3",
+		"problemsInfoIcon.foreground": "#2196F3",
+		"notificationsInfoIcon.foreground": "#2196F3",
+		"inputValidation.infoBorder": "#2196F3",
 
 		// Menüleiste & Titelleiste
 		"titleBar.activeBackground": "#f48fb1",
