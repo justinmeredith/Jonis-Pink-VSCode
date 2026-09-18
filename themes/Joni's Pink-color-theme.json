@@ -114,6 +114,9 @@
 		"activityBar.inactiveForeground": "#880E4F",
 		"activityBarBadge.background": "#D50061",
 		"activityBarBadge.foreground": "#000000",
+		// Purple strip/outline marking the currently active view icon, echoing the status bar
+		"activityBar.activeBorder": "#68217A",
+		"activityBar.activeFocusBorder": "#68217A",
 
 		// █████ Sidebar & Explorer █████
 		"sideBar.background": "#F8BBD0",
