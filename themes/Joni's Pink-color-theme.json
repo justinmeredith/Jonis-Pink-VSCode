@@ -2,7 +2,8 @@
 	"name": "Joni's Pink",
 	"colors": {
 		// Global
-		"focusBorder": "#F06292",
+		// Purple keyboard-focus ring, consistent with the status/activity bar accent
+		"focusBorder": "#68217A",
 		"foreground": "#000000",
 		"icon.foreground": "#880E4F",
 		"disabledForeground": "#C2185B",
@@ -124,7 +125,9 @@
 		"sideBarSectionHeader.background": "#F48FB1",
 		"sideBarSectionHeader.foreground": "#000000",
 		"tree.indentGuidesStroke": "#D50061",
-		"list.activeSelectionBackground": "#F48FB1",
+		// Purple for the actively-selected item, with the theme's medium pink for readable text on it
+		"list.activeSelectionBackground": "#68217A",
+		"list.activeSelectionForeground": "#F48FB1",
 		"list.hoverBackground": "#FCE4EC",
 		"list.inactiveSelectionBackground": "#F8BBD0",
 
