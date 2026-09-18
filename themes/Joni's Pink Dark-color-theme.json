@@ -4,7 +4,7 @@
 		// Global
 		// Bright purple focus ring (brighter than the light theme's, so it stays visible against near-black backgrounds)
 		"focusBorder": "#BA68C8",
-		"foreground": "#FDEAF1",
+		"foreground": "#F2D2E2",
 		"icon.foreground": "#F48FB1",
 		"disabledForeground": "#7A5C6E",
 		"descriptionForeground": "#F48FB1",
@@ -29,7 +29,7 @@
 
 		// █████ Editor █████
 		"editor.background": "#120810",
-		"editor.foreground": "#FDEAF1",
+		"editor.foreground": "#F2D2E2",
 		"editor.selectionBackground": "#3D1B30",
 		"editor.selectionHighlightBackground": "#FF4FA340",
 		"editor.lineHighlightBackground": "#FF4FA31A",
@@ -67,9 +67,9 @@
 
 		// █████ Suchbalken █████
 		"editorWidget.background": "#1C0E18",
-		"editorWidget.foreground": "#FDEAF1",
+		"editorWidget.foreground": "#F2D2E2",
 		"input.background": "#2A1522",
-		"input.foreground": "#FDEAF1",
+		"input.foreground": "#F2D2E2",
 		"inputOption.activeBorder": "#FF4FA3",
 		"inputValidation.infoBackground": "#2A1522",
 		"inputValidation.warningBackground": "#3D2E00",
@@ -85,7 +85,7 @@
 
 		// █████ Terminal █████
 		"terminal.background": "#1C0E18",
-		"terminal.foreground": "#FDEAF1",
+		"terminal.foreground": "#F2D2E2",
 		"terminalCursor.foreground": "#FF4FA3",
 		"terminal.ansiBlack": "#2A1522",
 		"terminal.ansiBrightBlack": "#7A5C6E",
@@ -101,7 +101,7 @@
 		"terminal.ansiBrightMagenta": "#FF80D5",
 		"terminal.ansiCyan": "#18FFFF",
 		"terminal.ansiBrightCyan": "#64FFDA",
-		"terminal.ansiWhite": "#FDEAF1",
+		"terminal.ansiWhite": "#F2D2E2",
 		"terminal.ansiBrightWhite": "#FFFFFF",
 
 		// █████ Panels █████
@@ -109,7 +109,7 @@
 		"panelTitle.activeForeground": "#FF4FA3",
 		"panelTitle.inactiveForeground": "#B8749A",
 		"panelSectionHeader.background": "#2A1522",
-		"panelSectionHeader.foreground": "#FDEAF1",
+		"panelSectionHeader.foreground": "#F2D2E2",
 
 		// █████ Source Control █████
 		"gitDecoration.addedResourceForeground": "#4CAF50",
@@ -120,12 +120,12 @@
 		"button.background": "#FF4FA3",
 		"button.foreground": "#120810",
 		"button.secondaryBackground": "#2A1522",
-		"button.secondaryForeground": "#FDEAF1",
+		"button.secondaryForeground": "#F2D2E2",
 		"toolbar.hoverBackground": "#2A1522",
 
 		// █████ Activity Bar █████
 		"activityBar.background": "#1C0E18",
-		"activityBar.foreground": "#FDEAF1",
+		"activityBar.foreground": "#F2D2E2",
 		"activityBar.inactiveForeground": "#7A5C6E",
 		"activityBarBadge.background": "#FF4FA3",
 		"activityBarBadge.foreground": "#120810",
@@ -135,20 +135,20 @@
 
 		// █████ Sidebar & Explorer █████
 		"sideBar.background": "#1C0E18",
-		"sideBar.foreground": "#FDEAF1",
+		"sideBar.foreground": "#F2D2E2",
 		"sideBarSectionHeader.background": "#2A1522",
-		"sideBarSectionHeader.foreground": "#FDEAF1",
+		"sideBarSectionHeader.foreground": "#F2D2E2",
 		"tree.indentGuidesStroke": "#D6006B",
 		// Purple for the actively-selected item
 		"list.activeSelectionBackground": "#68217A",
-		"list.activeSelectionForeground": "#FDEAF1",
+		"list.activeSelectionForeground": "#F2D2E2",
 		// Blue hover, distinct from the purple active-selection and plum inactive-selection states
 		"list.hoverBackground": "#448AFF26",
 		"list.inactiveSelectionBackground": "#2A1522",
 
 		// █████ Tabs █████
 		"tab.activeBackground": "#120810",
-		"tab.activeForeground": "#FDEAF1",
+		"tab.activeForeground": "#F2D2E2",
 		"tab.inactiveBackground": "#1C0E18",
 		"tab.inactiveForeground": "#B8749A",
 		"tab.border": "#4A2038",
@@ -157,19 +157,19 @@
 
 		// █████ Menüs & Dropdowns █████
 		"menu.background": "#1C0E18",
-		"menu.foreground": "#FDEAF1",
+		"menu.foreground": "#F2D2E2",
 		"menu.selectionBackground": "#3D1B30",
-		"menu.selectionForeground": "#FDEAF1",
+		"menu.selectionForeground": "#F2D2E2",
 		"menu.border": "#4A2038",
 		"dropdown.background": "#1C0E18",
-		"dropdown.foreground": "#FDEAF1",
+		"dropdown.foreground": "#F2D2E2",
 
 		// █████ Status Bar █████
 		// Purple bar, always on (same as the no-folder state), with the existing near-white text
 		"statusBar.background": "#68217A",
-		"statusBar.foreground": "#FDEAF1",
+		"statusBar.foreground": "#F2D2E2",
 		"statusBar.noFolderBackground": "#68217A",
-		"statusBar.noFolderForeground": "#FDEAF1",
+		"statusBar.noFolderForeground": "#F2D2E2",
 		"statusBarItem.remoteBackground": "#FF4FA3",
 		"statusBarItem.remoteForeground": "#120810",
 
