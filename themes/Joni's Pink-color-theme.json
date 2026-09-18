@@ -143,7 +143,8 @@
 		// Purple for the actively-selected item, with the theme's medium pink for readable text on it
 		"list.activeSelectionBackground": "#68217A",
 		"list.activeSelectionForeground": "#F48FB1",
-		"list.hoverBackground": "#FCE4EC",
+		// Light blue hover, distinct from the purple active-selection and pink inactive-selection states
+		"list.hoverBackground": "#E3F2FD",
 		"list.inactiveSelectionBackground": "#F8BBD0",
 
 		// █████ Tabs █████
