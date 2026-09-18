@@ -14,7 +14,8 @@
 	},
 
 	"categories": [
-		"Themes"
+		"Themes",
+		"Icon Themes"
 	],
 	"contributes": {
 		"themes": [
@@ -27,6 +28,13 @@
 				"label": "Joni's Pink Dark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Joni's Pink Dark-color-theme.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "jonis-pink-icons",
+				"label": "Joni's Pink Icons",
+				"path": "./icons/Joni's Pink-icon-theme.json"
 			}
 		]
 	},

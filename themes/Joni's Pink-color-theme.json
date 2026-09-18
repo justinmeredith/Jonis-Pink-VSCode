@@ -113,9 +113,13 @@
 		"panelSectionHeader.foreground": "#000000",
 
 		// █████ Source Control █████
-		"gitDecoration.addedResourceForeground": "#4CAF50",
-		"gitDecoration.modifiedResourceForeground": "#FFC107",
-		"gitDecoration.deletedResourceForeground": "#F44336",
+		// Darker than the editor-gutter versions below — these color small text labels in the
+		// Explorer/SCM view, which need real contrast against the light pink background, unlike
+		// the gutter's solid color bars
+		"gitDecoration.addedResourceForeground": "#2E7D32",
+		"gitDecoration.modifiedResourceForeground": "#8B6508",
+		"gitDecoration.deletedResourceForeground": "#C62828",
+		"gitDecoration.untrackedResourceForeground": "#2E7D32",
 
 		// █████ Buttons & Controls █████
 		"button.background": "#F06292",
