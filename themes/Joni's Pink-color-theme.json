@@ -144,8 +144,12 @@
 		"dropdown.foreground": "#000000",
 
 		// █████ Status Bar █████
-		"statusBar.background": "#F48FB1",
-		"statusBar.foreground": "#000000",
+		// Dark purple bar (same shade VS Code uses for the no-folder state) with the theme's
+		// signature medium pink for text/icons, for readable contrast against the purple.
+		"statusBar.background": "#68217A",
+		"statusBar.foreground": "#F48FB1",
+		"statusBar.noFolderBackground": "#68217A",
+		"statusBar.noFolderForeground": "#F48FB1",
 		"statusBarItem.remoteBackground": "#F06292",
 		"statusBarItem.remoteForeground": "#000000",
 
