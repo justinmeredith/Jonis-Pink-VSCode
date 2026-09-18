@@ -51,6 +51,15 @@
 		"editorBracketMatch.background": "#00E5FF33",
 		"editorBracketMatch.border": "#00E5FF",
 
+		// █████ Scrollbar & Minimap █████
+		// Purple slider, echoing the status/activity bar accent, with increasing opacity on hover/drag
+		"scrollbarSlider.background": "#68217A66",
+		"scrollbarSlider.hoverBackground": "#68217A99",
+		"scrollbarSlider.activeBackground": "#68217ACC",
+		"minimapSlider.background": "#68217A4D",
+		"minimapSlider.hoverBackground": "#68217A80",
+		"minimapSlider.activeBackground": "#68217AB3",
+
 		// █████ Suchbalken █████
 		"editorWidget.background": "#F8BBD0",
 		"editorWidget.foreground": "#000000",
