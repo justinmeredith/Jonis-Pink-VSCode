@@ -2,7 +2,8 @@
 	"name": "Joni's Pink Dark",
 	"colors": {
 		// Global
-		"focusBorder": "#FF4FA3",
+		// Bright purple focus ring (brighter than the light theme's, so it stays visible against near-black backgrounds)
+		"focusBorder": "#BA68C8",
 		"foreground": "#FDEAF1",
 		"icon.foreground": "#F48FB1",
 		"disabledForeground": "#7A5C6E",
@@ -14,6 +15,11 @@
 		"list.errorForeground": "#FF5252",
 		"problemsWarningIcon.foreground": "#FFC107",
 		"problemsErrorIcon.foreground": "#FF5252",
+		// Blue for info-level icons/messages, matching the existing terminal blue
+		"editorInfo.foreground": "#448AFF",
+		"problemsInfoIcon.foreground": "#448AFF",
+		"notificationsInfoIcon.foreground": "#448AFF",
+		"inputValidation.infoBorder": "#448AFF",
 
 		// Menüleiste & Titelleiste
 		"titleBar.activeBackground": "#1C0E18",
@@ -49,6 +55,15 @@
 		"editor.wordHighlightTextBorder": "#00E5FF",
 		"editorBracketMatch.background": "#00E5FF33",
 		"editorBracketMatch.border": "#00E5FF",
+
+		// █████ Scrollbar & Minimap █████
+		// Bright purple slider, with increasing opacity on hover/drag
+		"scrollbarSlider.background": "#BA68C866",
+		"scrollbarSlider.hoverBackground": "#BA68C899",
+		"scrollbarSlider.activeBackground": "#BA68C8CC",
+		"minimapSlider.background": "#BA68C84D",
+		"minimapSlider.hoverBackground": "#BA68C880",
+		"minimapSlider.activeBackground": "#BA68C8B3",
 
 		// █████ Suchbalken █████
 		"editorWidget.background": "#1C0E18",
@@ -114,6 +129,9 @@
 		"activityBar.inactiveForeground": "#7A5C6E",
 		"activityBarBadge.background": "#FF4FA3",
 		"activityBarBadge.foreground": "#120810",
+		// Purple strip/outline marking the currently active view icon
+		"activityBar.activeBorder": "#BA68C8",
+		"activityBar.activeFocusBorder": "#BA68C8",
 
 		// █████ Sidebar & Explorer █████
 		"sideBar.background": "#1C0E18",
@@ -121,8 +139,11 @@
 		"sideBarSectionHeader.background": "#2A1522",
 		"sideBarSectionHeader.foreground": "#FDEAF1",
 		"tree.indentGuidesStroke": "#D6006B",
-		"list.activeSelectionBackground": "#3D1B30",
-		"list.hoverBackground": "#2A1522",
+		// Purple for the actively-selected item
+		"list.activeSelectionBackground": "#68217A",
+		"list.activeSelectionForeground": "#FDEAF1",
+		// Blue hover, distinct from the purple active-selection and plum inactive-selection states
+		"list.hoverBackground": "#448AFF26",
 		"list.inactiveSelectionBackground": "#2A1522",
 
 		// █████ Tabs █████
@@ -144,8 +165,11 @@
 		"dropdown.foreground": "#FDEAF1",
 
 		// █████ Status Bar █████
-		"statusBar.background": "#7A0F45",
+		// Purple bar, always on (same as the no-folder state), with the existing near-white text
+		"statusBar.background": "#68217A",
 		"statusBar.foreground": "#FDEAF1",
+		"statusBar.noFolderBackground": "#68217A",
+		"statusBar.noFolderForeground": "#FDEAF1",
 		"statusBarItem.remoteBackground": "#FF4FA3",
 		"statusBarItem.remoteForeground": "#120810",
 
