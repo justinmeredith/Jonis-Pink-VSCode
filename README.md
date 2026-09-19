@@ -76,3 +76,4 @@ Pulling the latest repo (`git pull`) updates the prompt everywhere it's sourced 
 ---
 
 Made with 🩷 by Evelyn
+Edited with 🩷 by Joni
