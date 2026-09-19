@@ -36,6 +36,14 @@
 		"editor.lineHighlightBackground": "#FFFFFF33",
 		"editor.lineHighlightBorder": "#F06292",
 		"editorLineNumber.foreground": "#D50061",
+		// The active line number, ghost text (inline suggestions), and light bulbs had no
+		// explicit color at all, so they fell back to VS Code's defaults tuned for dark editors —
+		// all three were nearly invisible against this light pink background
+		"editorLineNumber.activeForeground": "#880E4F",
+		"editorGhostText.foreground": "#880E4FCC",
+		"editorLightBulb.foreground": "#8B6508",
+		"editorLightBulbAutoFix.foreground": "#2E7D32",
+		"editorLightBulbAi.foreground": "#68217A",
 		"editorBracketHighlight.foreground1": "#C2185B",
 		"editorBracketHighlight.foreground2": "#AD1457",
 		"editorBracketHighlight.foreground3": "#880E4F",
@@ -190,12 +198,17 @@
 		"notebookStatusErrorIcon.foreground": "#D32F2F",
 		"notebookStatusRunningIcon.foreground": "#880E4F"
 	},
+	// Token colors were originally a near-monochrome pink gradient (hues 332-340) differentiated
+	// mostly by lightness. The lighter members (Strings, Numbers) fell to ~2.5:1 contrast against
+	// the editor background — barely visible. Darkened each to clear ~4.6:1, and spread the hues
+	// wider (302-350, drifting Strings/Variables toward the purple accent added elsewhere in the
+	// theme) since lightness alone no longer has enough room left to keep them distinguishable.
 	"tokenColors": [
 		{
 			"name": "Comments",
 			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
-				"foreground": "#C2185B",
+				"foreground": "#ad153e",
 				"fontStyle": "italic"
 			}
 		},
@@ -203,7 +216,7 @@
 			"name": "Functions",
 			"scope": ["entity.name.function", "meta.function-call"],
 			"settings": {
-				"foreground": "#D50061"
+				"foreground": "#ad0062"
 			}
 		},
 		{
@@ -218,21 +231,21 @@
 			"name": "Variables",
 			"scope": ["variable", "variable.parameter"],
 			"settings": {
-				"foreground": "#D81B60"
+				"foreground": "#a21481"
 			}
 		},
 		{
 			"name": "Strings",
 			"scope": ["string"],
 			"settings": {
-				"foreground": "#E91E63"
+				"foreground": "#9e0f99"
 			}
 		},
 		{
 			"name": "Numbers",
 			"scope": ["constant.numeric"],
 			"settings": {
-				"foreground": "#EC407A"
+				"foreground": "#b0112c"
 			}
 		},
 		{
