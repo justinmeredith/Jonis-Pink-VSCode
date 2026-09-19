@@ -9,13 +9,17 @@ This is a personal fork of [Evelyn's Pink](https://github.com/Evelynox/Evelyns-P
 
 ## 📸 Preview
 
-![Theme Preview](https://github.com/Evelynox/Evelyns-Pink-VSCode/blob/main/screenshots/editor.png?raw=true)
+| Joni's Pink | Joni's Pink Dark |
+| --- | --- |
+| ![Joni's Pink light theme](screenshots/light.png) | ![Joni's Pink Dark theme](screenshots/dark.png) |
 
 ---
 
 ## ✨ Features
 
-- Light pink background with deep contrast highlights
+- Light pink background with deep contrast highlights, plus a "Joni's Pink Dark" variant
+- Purple accent system (status bar, focus rings, active selections, scrollbar) layered on top of the pink, with blue used for info-level icons/messages
+- A matching "Joni's Pink Icons" file icon theme, with glyph colors tuned for contrast against this theme's pink/purple UI instead of VS Code's usual dark-background defaults
 - Carefully chosen colors for readability and accessibility
 - Fully themed UI, including activity bar, sidebar, status bar, and terminal
 - Styled for consistency across languages (JS, Python, C++, HTML, etc.)
@@ -24,11 +28,25 @@ This is a personal fork of [Evelyn's Pink](https://github.com/Evelynox/Evelyns-P
 
 ## 🔧 Installation
 
-This fork isn't published to the Marketplace — it's meant to be used as a local dev extension:
+This fork isn't published to the Marketplace — it's meant to be used as a local dev extension, symlinked into place so a `git pull` updates it everywhere automatically:
 
-1. Clone this repo into `~/.vscode/extensions/jonis-pink` (or symlink it there)
-2. Reload VS Code
-3. Press `Ctrl+K Ctrl+T` and select **Joni's Pink** from the theme list
+1. Clone this repo somewhere stable (e.g. `~/Programming (Local)/Jonis-Pink-VSCode`)
+2. Symlink it into your VS Code extensions folder, named to match `<publisher>.<name>-<version>` from [package.json](package.json) (currently `justinmeredith.jonis-pink-1.4.0` — bump the version in the folder name if it's changed since):
+   ```sh
+   ln -s "$HOME/Programming (Local)/Jonis-Pink-VSCode" ~/.vscode/extensions/justinmeredith.jonis-pink-1.4.0
+   ```
+   Use `$HOME`, not `~`, inside the quotes — a quoted `~` isn't expanded by the shell, and silently produces a broken symlink that looks fine in a listing but resolves to nothing.
+3. Fully restart VS Code, not just a window reload — new contributions (themes, icon themes) are only read at startup.
+4. `Cmd+K Cmd+T` (macOS) or `Ctrl+K Ctrl+T` → select **Joni's Pink** or **Joni's Pink Dark**.
+5. Command Palette → **Preferences: File Icon Theme** → **Joni's Pink Icons** (this doesn't follow the color theme automatically — it's a separate, per-machine setting).
+
+Pulling later updates (`git pull`) refreshes the symlinked files immediately; if something doesn't seem to update, confirm the symlink itself is still intact before digging further:
+
+```sh
+ls -la ~/.vscode/extensions/justinmeredith.jonis-pink-1.4.0
+```
+
+A `->` pointing at a real path that resolves is healthy; anything else (a plain directory, or an arrow to a path that doesn't exist) means VS Code is loading a stale, disconnected copy — redo steps 1–2.
 
 For the original, unmodified theme, install [Evelyn's Pink from the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Evelyn.evelyns-pink).
 
