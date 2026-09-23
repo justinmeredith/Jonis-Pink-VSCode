@@ -53,7 +53,7 @@
 		"editorError.foreground": "#D32F2F",
 		"editorWarning.foreground": "#FF8F00",
 		"editorGutter.addedBackground": "#4CAF50",
-		"editorGutter.modifiedBackground": "#FFC107",
+		"editorGutter.modifiedBackground": "#68217A",
 		"editorGutter.deletedBackground": "#F44336",
 		"editorCursor.foreground": "#880E4F",
 		"editor.wordHighlightBackground": "#00E5FF40",
